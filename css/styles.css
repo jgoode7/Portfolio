@@ -1,12 +1,162 @@
+/* Base Styles */
 header {
     margin: 0;
+    background: linear-gradient(165deg, white 15%, #851F43);
+}
+
+header h1 {
+    font-family: cursive;
+    font-size: 1.5em;
+    color: #851F43;
+}
+
+section {
+    margin: 0 5px;
 }
 
 h1 {
     padding-top: 10px;
-    margin-left: 7px;
+    margin-left: 17px;
     font-size: 20px;
 }
 
-.row {
+#main {
+    background: linear-gradient(to bottom, white 25%, #851F43 80%, black 100%);
+}
+
+/* Class Selectors */
+.display-5 {
+    font-family: copperplate;
+    font-size: 50px;
+}
+
+.carousel-section {
+    max-height: 100vh;
+    max-width: auto;
+}
+
+.projects {
+    margin-top: 5em;
+}
+
+.projects h1 {
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: #851F43 3px solid;
+}
+
+.nav-link {
+    color: white;
+}
+
+.hero {
+    margin: 0;
+    margin-top: -50px;
+    height: 92vh;
+    background: url("../img/ottawa-night.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    margin: 2rem 0;
+}
+
+.quote {
+    margin-top: 5em;
+}
+
+.lead {
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.px-4 {
+    margin-top: 0;
+} 
+
+/* Footer */
+.footer-basic {
+    padding: 40px 0;
+    background-color: #ffffff;
+    color: #4b4c4d;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.footer-basic ul {
+padding: 0;
+list-style: none;
+text-align: center;
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 0;
+}
+
+.footer-basic li {
+padding: 0 10px;
+}
+
+.footer-basic ul a {
+color: inherit;
+text-decoration: none;
+opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+opacity: 1;
+}
+
+.footer-basic .social {
+text-align: center;
+padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+font-size: 24px;
+width: 40px;
+height: 40px;
+line-height: 40px;
+display: inline-block;
+text-align: center;
+border-radius: 50%;
+border: 1px solid #ccc;
+margin: 0 8px;
+color: inherit;
+opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+opacity: 0.9;
+}
+
+.footer-basic .copyright {
+margin-top: 15px;
+text-align: center;
+font-size: 13px;
+color: #aaa;
+margin-bottom: 0;
+}
+
+/* Projects Sub Page */
+
+#projects-main {
+    margin-top: 5em;
+    background: linear-gradient(to bottom, white 6%, #851F43 80%, black 100%);
+}
+
+.projects-footer {
+    margin-top: 10px;
+}
+
+/* Contact Sub Page */
+.contact-body {
+    background: url(../tree-background.svg);
+    background-repeat: no-repeat;
+}
+
+.bg-dark {
+    opacity: .5;
 }
