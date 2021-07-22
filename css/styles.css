@@ -147,14 +147,13 @@ margin-bottom: 0;
     background: linear-gradient(to bottom, white 6%, #851F43 80%, black 100%);
 }
 
-.projects-footer {
+.projects-footer{
     margin-top: 10px;
 }
 
 /* Contact Sub Page */
 .contact-body {
-    background: url(../tree-background.svg);
-    background-repeat: no-repeat;
+    background: url(../optimised.svg) no-repeat;
 }
 
 .bg-dark {
