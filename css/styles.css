@@ -1,17 +1,25 @@
 /* Base Styles */
 header {
     margin: 0;
-    background: linear-gradient(165deg, white 15%, #851F43);
 }
 
 header h1 {
-    font-family: cursive;
-    font-size: 1.5em;
-    color: #851F43;
+    font-family: copperplate;
+    font-size: 2em;
+    color: #fff;
 }
 
 section {
     margin: 0 5px;
+}
+
+.quote {
+    padding-top: 100px;
+}
+
+.nav-link {
+    font-size: 1.8em;
+    font-family: copperplate;
 }
 
 h1 {
@@ -51,8 +59,8 @@ h1 {
 
 .hero {
     margin: 0;
-    margin-top: -50px;
-    height: 92vh;
+    margin-top: -117px;
+    height: 100vh;
     background: url("../img/ottawa-night.jpeg");
     background-repeat: no-repeat;
     background-position: center;
@@ -71,6 +79,8 @@ h1 {
     color: white;
     font-weight: bolder;
     font-size: 35px;
+    margin-top: -7px;
+    width: 65vw;
 }
 
 .px-4 {
@@ -151,11 +161,25 @@ margin-bottom: 0;
     margin-top: 10px;
 }
 
+.project-nav,
+.contact-nav {
+    color: #1313c2;
+}
+
+
 /* Contact Sub Page */
 .contact-body {
     background: url(../optimised.svg) no-repeat;
 }
 
 .bg-dark {
-    opacity: .5;
+    /* opacity: .5; */
+}
+
+.accordion-item { 
+    text-align: center;
+}
+
+h2 {
+    color: #1313c2;
 }
