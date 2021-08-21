@@ -6,7 +6,8 @@ header {
 header h1 {
     font-family: copperplate;
     text-shadow: 2px 2px #290087;
-    font-size: 2em;
+    margin-left: 2rem;
+    font-size: 1.2em;
     color: #fff;
 }
 
@@ -37,8 +38,11 @@ section {
 }
 
 .nav-link {
-    font-size: 1.8em;
+    font-size: 1.2em;
     font-family: copperplate;
+}
+.nav {
+    margin-right: 2em;
 }
 
 h1 {
@@ -238,12 +242,16 @@ margin-bottom: 0;
 
 /* Contact Sub Page */
 .contact-body {
-    background: url(../optimised.svg) no-repeat;
+    /* background: url(../optimised.svg) no-repeat; */
+}
+
+.about-nav {
+    background-color: #212529;
 }
 
 .contact-nav {
-    color: #1313c2;
-    text-shadow: 2px 2px #290087;
+    color: white;
+    
 }
 .accordion-item { 
     text-align: center;
@@ -251,4 +259,9 @@ margin-bottom: 0;
 
 h2 {
     color: #1313c2;
+}
+
+.accordion-body {
+    background-image: url(../star-background.jpeg);
+    height: 40vh;
 }
