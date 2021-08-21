@@ -204,9 +204,32 @@ margin-bottom: 0;
     text-shadow: 1px 1px #fff;
 }
 
+.card {
+    background-color: #cce0ff;
+}
+
+.card-img-top {
+    border: double 7px #e2e2e2; 
+}
+
 .card-header {
     display: flex;
     height: 50px;
+    background: linear-gradient(to right,#0040a6 0%, white 100%);
+    padding-left: 5px;
+}
+
+.card-title {
+    font-family: 'Zilla Slab', serif;
+    color: white;
+    font-size: 24px;
+    padding-top: 2px;
+}
+
+.card-text {
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+    padding-top: 12px;
 }
 
 .card-icons {
