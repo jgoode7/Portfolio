@@ -241,9 +241,6 @@ margin-bottom: 0;
 }
 
 /* Contact Sub Page */
-.contact-body {
-    /* background: url(../optimised.svg) no-repeat; */
-}
 
 .about-nav {
     background-color: #212529;
@@ -251,8 +248,12 @@ margin-bottom: 0;
 
 .contact-nav {
     color: white;
-    
 }
+
+.about-pic {
+    border-radius: 50%;
+}
+
 .accordion-item { 
     text-align: center;
 }
