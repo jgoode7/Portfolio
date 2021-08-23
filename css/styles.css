@@ -262,6 +262,10 @@ h2 {
     color: #1313c2;
 }
 
+.accordion {
+    padding-top: 3em;
+}
+
 .accordion-body {
     background-image: url(../star-background.jpeg);
     height: 40vh;
