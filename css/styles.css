@@ -33,7 +33,7 @@ header {
         }
       }
     }
-    
+
 header h1 {
     font-family: copperplate;
     text-shadow: 2px 2px #290087;
@@ -64,8 +64,6 @@ div.intro {
     font-family: 'Zilla Slab', serif;
     color: white;
 }
-
-.hero-h2:n
 
 /* Slide-in Intro */
 /* div.intro p {
