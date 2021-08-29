@@ -4,11 +4,12 @@ header {
 }
 
 .jg-icon {
+    /* circle color: #3272db */
     height: 100px;
     width: 100px;
     position: absolute;
     z-index: 1;
-    margin-top: -18px;
+    margin-top: -15px;
     margin-left: -25px;
 }
 
@@ -20,13 +21,33 @@ header h1 {
     color: #fff;
 }
 
+ul {
+    padding: 10px 0 0 0;
+    margin-right: 5px;
+
+}
+
 div.intro {
   width:100%;
   overflow:hidden;
 }
 
+.hero-h1 {
+    font-family: 'Zilla Slab', serif;
+    color: #3272db;
+    padding-top: 125px;
+    margin-bottom: -4px;
+}
+
+.hero-h2 {
+    font-family: 'Zilla Slab', serif;
+    color: white;
+}
+
+.hero-h2:n
+
 /* Slide-in Intro */
-div.intro p {
+/* div.intro p {
   animation: slide-left 3s;
 }
 
@@ -37,35 +58,23 @@ div.intro p {
   }
 
   to {
-    margin-left: 0%;
+    margin-left: 30%;
     width: 65%;
   }
-}
+} */
 
 section {
     margin: 0 5px;
 }
 
 .nav-link {
+    color: white;
+    text-shadow: 2px 2px #290087;
     font-size: 1.2em;
     font-family: copperplate;
 }
-.nav {
-    margin-right: 2em;
-}
-
-h1 {
-    padding-top: 10px;
-    margin-left: 17px;
-    font-size: 20px;
-}
 
 /* Class Selectors */
-.display-5 {
-    font-family: copperplate;
-    font-size: 50px;
-}
-
 .carousel-section {
     max-height: 100vh;
     max-width: auto;
@@ -81,16 +90,12 @@ h1 {
     border-bottom: #851F43 3px solid;
 }
 
-.nav-link {
-    color: white;
-    text-shadow: 2px 2px #290087;
-}
-
 .hero {
     margin: 0;
     margin-top: -117px;
     height: 100vh;
-    background: url("../img/ottawa-night.jpeg");
+    background: linear-gradient(to right, rgba(38, 21, 77, 0.8), rgba(38, 21, 77, 0.8)), 
+                url("../img/ottawa-night.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -105,17 +110,30 @@ h1 {
 }
 
 .lead {
+    padding-top: 35px;
     color: white;
-    text-shadow: 2px 2px #290087;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 1.2em;
     margin-top: -7px;
-    width: 65vw;
 }
 
 .px-4 {
     margin-top: 0;
 } 
+
+.work-btn {
+    background-color: #ff4040;
+    height: 75px;
+    width: 250px;
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.work-btn:hover {
+    background: #3272db;
+}
 
 /* Footer */
 .footer-basic {
@@ -233,10 +251,7 @@ margin-bottom: 0;
 }
 
 .card-title {
-    font-family: 'Zilla Slab', serif;
-    color: white;
-    font-size: 24px;
-    padding-top: 2px;
+    
 }
 
 .card-text {
