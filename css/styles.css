@@ -13,6 +13,26 @@ header {
     margin-left: -25px;
 }
 
+/* Icon Animation */
+#Layer_1, 
+.circle1, 
+.circle2 {{
+        animation-duration: 3s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+    }
 header h1 {
     font-family: copperplate;
     text-shadow: 2px 2px #290087;
