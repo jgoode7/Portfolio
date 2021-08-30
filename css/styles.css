@@ -99,16 +99,6 @@ section {
     max-width: auto;
 }
 
-.projects {
-    margin-top: 5em;
-}
-
-.projects h1 {
-    font-size: xx-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-bottom: #851F43 3px solid;
-}
-
 .hero {
     margin: 0;
     margin-top: -117px;
@@ -232,6 +222,14 @@ margin-bottom: 0;
     flex-direction: column;
 }
 
+.project-jumbo-title {
+    text-align: center;
+}
+
+.container-fluid {
+    margin: 150px 55px;
+}
+
 .projects-jumbo-p {
     font-size: 24px;
     padding: 0 15px;
@@ -261,10 +259,6 @@ margin-bottom: 0;
     height: 50px;
     background: linear-gradient(to right,#0040a6 0%, white 100%);
     padding-left: 5px;
-}
-
-.card-title {
-    
 }
 
 .card-text {
