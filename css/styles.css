@@ -110,12 +110,12 @@ section {
     background-size: cover;
 }
 
-.card {
-    margin: 2rem 0;
+.container-fluid {
+    margin: 150px 0;
 }
 
-.quote {
-    margin-top: 5em;
+.card {
+    margin: 2rem 0;
 }
 
 .lead {
@@ -224,10 +224,6 @@ margin-bottom: 0;
 
 .project-jumbo-title {
     text-align: center;
-}
-
-.container-fluid {
-    margin: 150px 55px;
 }
 
 .projects-jumbo-p {
