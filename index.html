@@ -78,9 +78,8 @@
 
       <!-- Hero Section -->
       <section class="hero">
-        <div class="px-4 py-5 my-5 text-center">
+        <div class="px-4 py-5 my-5 text-center center-child">
           <h1 class="display-6 fw-bold hero-h1">joseph goode</h1>
-
           <h2 class="display-5 hero-h2"> Not your average 
 
             <span style="background: -webkit-linear-gradient(#eee, #0062ff);
@@ -111,15 +110,15 @@
     <main>
 
     <!-- Projects -->
-    <div class="container-fluid">
-      <div class="jumbotron jumbotron-fluid container">
-        <div class="jumbo-div">
-          <h1 class="display-4 project-jumbo-title">My Work</h1>
-          <p class="projects-jumbo-p">Projects I completed for Team Treehouse, where I learned the fundamentals of <br> coding. I received their "Exceeds Expectations" grade for all 9 projects.</p>
+    <section class="container-fluid">
+      <div class="container center-child">
+        <div class="jumbotron jumbotron-fluid container ">
+          <div class="jumbo-div">
+            <h1 class="display-4 project-jumbo-title">My Work</h1>
+            <p class="projects-jumbo-p">Projects I completed for Team Treehouse, where I learned the fundamentals of <br> coding. I received their "Exceeds Expectations" grade for all 9 projects.</p>
+          </div>
         </div>
-      </div>
 
-      <section class="container">
         <div class="row row-cols-1 row-cols-sm-3 g-4">
             <div class="col">
               <div class="card">
@@ -133,10 +132,13 @@
                       <object data="icons/js.svg" width="35" height="35"> </object>
                     </div>
                   </div>
-                  <p class="card-text">Besides using HTML, CSS, and JavaScript for this project, the <strong>"baguetteBox"</strong> plug-in came in handy to label each of the pictures with a beautiful caption once clicked! I also recieved extra credit for writing the JavaScript required to search the image titles/captions through the inserted search bar, which I thought was pretty cool 😎</p>
+                  <p class="card-text">Besides using HTML, CSS, and JavaScript for this project, the <strong>"baguetteBox"</strong> plug-in came in handy to label each of the pictures with a beautiful caption once clicked!</p>
+
+                  <a href="#">Read More &#187</a>
                 </div>
               </div>
             </div>
+
             <div class="col">
               <div class="card">
                 <img src="img/w-o-s-game.png" class="card-img-top" alt="Wheel of Success Game Project">
@@ -147,10 +149,12 @@
                       <object data="icons/js.svg" width="35" height="35"> </object>
                     </div>
                   </div>
-                  <p class="card-text">The HTML and CSS for this project were provided to me by Treehouse, leaving only the JavaScript to write. I'll admit I found this project quite difficult. Using plenty of resources such as MDN, CSS Tricks, the Slack community etc. I was able to make this one stand out!</p>
+                  <p class="card-text">I'll admit I found this project quite difficult. Using plenty of resources such as MDN, CSS Tricks, and the Slack community, I was able to make this one stand out!</p>
+                  <a href="#">Read More &#187</a>
                 </div>
               </div>
             </div>
+
             <div class="col">
               <div class="card">
                 <img src="img/api-directory.png" class="card-img-top" alt="API Directory">
@@ -163,102 +167,115 @@
                       <object data="icons/js.svg" width="35" height="35"> </object>
                     </div>
                   </div>
-                  <p class="card-text">The JavaScript involved for this project was the most in-depth yet! Not to mention designing and writing the code from scratch. Iterating over arrays, using fetch for the API, this was great practice to sharpen my JavaScript a notch</p>
+                  <p class="card-text">I designing and wrote the code from scratch. Iterating over arrays, using fetch for the API, this was great practice to sharpen my JavaScript a notch</p>
+                  <a href="#">Read More &#187</a>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </div>
+    </section>
 
       <!-- About Me -->
-      <div class="bg-dark text-secondary px-4 py-5 text-center">
+      <section class="about-parent text-secondary px-4 py-5 text-center">
         <div class="py-5 about-hero"> 
           <img src="about-pic.jpeg" class="about-pic" alt="Sampson and I">
           <h1 class="display-5 fw-bold text-white">About Me</h1>
+
           <div class="col-lg-6 mx-auto">
             <p class="fs-5 mb-4">I've spent most of my adult life travelling Canada. <br> I've lived in 4 provinces, each one inspiring me in their own way</p>
+            
+             <!-- Accordion -->
             <div class="d-grid gap-2 d-lg-flex justify-content-lg-center">
-               <!-- Accordion -->
-      <div class="accordion accordion-flush container" id="accordionFlushExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              It All Began In Ontario
-            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">From big city living, to acreages kilometers from any large city, I spent 20 years in this absolutely beautiful, and <strong>ENORMOUS</strong> province. This is where it can all be traced back to. The people, the culture, the thriving major cities, these are the key elements to who I am deep at my core.</div>
-          </div>
-        </div>
+              <div class="accordion accordion-flush container" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      It All Began In Ontario
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">From big city living, to acreages kilometers from any large city, I spent 20 years in this absolutely beautiful, and <strong>ENORMOUS</strong> province. This is where it can all be traced back to. The people, the culture, the thriving major cities, these are the key elements to who I am deep at my core.</div>
+                  </div>
+                </div>
 
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              Quick Stop Off In Quebec
-            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Don't let their language intimidate you! It is the language of romance and love after all! <br> This province holds a special place in my heart. Montreal, a city with people from all walks of life, surrounded by jaw-dropping scenery and eye-popping architecture, this popular eastern city is a must visit for any Canadian looking to explore within their own country. Besides the beauty, this spectacular city saved my life in many ways, opening my future to adventure, independance and most importantly, the ability to wear my heart on my sleeve</div>
-          </div>
-        </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Quick Stop Off In Quebec
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Don't let their language intimidate you! It is the language of romance and love after all! <br> This province holds a special place in my heart. Montreal, a city with people from all walks of life, surrounded by jaw-dropping scenery and eye-popping architecture, this popular eastern city is a must visit for any Canadian looking to explore within their own country. Besides the beauty, this spectacular city saved my life in many ways, opening my future to adventure, independance and most importantly, the ability to wear my heart on my sleeve</div>
+                  </div>
+                </div>
 
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              A Decade of Hard Work in Alberta
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Hitting the open road with my car packed with what little belongings I could fit with me, Alberta was a key part of my life, spending nearly 1 third of my life there. From the extreme work lifestyle, fortifying my already strong work ethic, to the solo life skills developed to endure being 4000+ kilometers from any family, this province is easily responsible for shaping me into the man I am today</div>
-          </div>
-        </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      A Decade of Hard Work in Alberta
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Hitting the open road with my car packed with what little belongings I could fit with me, Alberta was a key part of my life, spending nearly 1 third of my life there. From the extreme work lifestyle, fortifying my already strong work ethic, to the solo life skills developed to endure being 4000+ kilometers from any family, this province is easily responsible for shaping me into the man I am today</div>
+                  </div>
+                </div>
 
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-              Current Chapter- Beautiful British Columbia
-            </button>
-          </h2>
-          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">I made it! I came back in 2017 and don't ever plan on leaving! It's difficult to explain to locals what appeals to me the most here. I find myself often summing it up to "I feel at home finally". </div>
-          </div>
-        </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      Current Chapter- Beautiful British Columbia
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">I made it! Returning in 2017, I'm here to stay this time! <br>It's difficult to explain to locals what appeals to me the most here. I find myself often summing it up to "I finally feel home". </div>
+                  </div>
+                </div>
 
-      </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-               
-    </main>
+      </section>
+              
+      <section>
+        <div class="m-3 text-center child-center">
+          <h1 class="display-6 fw-bold about-h1">Let's Create Beatiful Things Together!</h1>
 
-    <hr> 
+          <p>I'm currently looking for remote junior front-end dev opportunites.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-primary btn-lg px-4 gap-3 contact-btn">Drop Me a Line!</button>            </div>
+          </div>
+        </div>
+        <div class="social container">
+          <a href="#">
+            <i class="icon ion-social-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="icon ion-social-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="icon ion-social-github"></i>
+          </a>
+        </div>
+      </section>
+
+    </main>
 
     <!-- Footer -->
     <footer>
-      <!-- RPM Tach SVG here -->
-      <!-- SVG Icons for Social Media Links -->
       <div class="footer-basic">
-            <div class="social">
-              <a href="#">
-                <i class="icon ion-social-instagram"></i>
-              </a>
-              <a href="#">
-                <i class="icon ion-social-twitter"></i>
-              </a>
-              <a href="#">
-                <i class="icon ion-social-facebook"></i>
-              </a>
-            </div>
-            
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Back To Top</a></li>
-                <li class="list-inline-item"><a href="projects.html">Projects</a></li>
-                <li class="list-inline-item"><a href="contact.html">About Me</a></li>
-            </ul>
-            <p class="copyright">Joseph Goode 2021</p>
-            </div>
+        <div class="left-footer">
+          <p>Joseph Goode <br> Front-End Web Developer <br> Vancouver Island, B.C.
+          </p>
+        </div>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="#">Back To Top</a></li>
+              <li class="list-inline-item"><a href="projects.html">Projects</a></li>
+              <li class="list-inline-item"><a href="contact.html">About Me</a></li>
+          </ul>
+        </div>
       </div>
     </footer>
 

@@ -1,4 +1,10 @@
 /* Header/Nav */
+
+.center-child {
+    width: 85%;
+    margin: 0 auto;
+}
+
 header {
     margin: 0;
 }
@@ -33,9 +39,6 @@ ul {
 }
 
 /* Hero */
-section {
-    margin: 0 5px;
-}
 
 .hero {
     margin: 0;
@@ -67,9 +70,10 @@ section {
     margin-top: -7px;
 }
 
-.work-btn {
+.work-btn,
+.contact-btn {
     background-color: #ff4040;
-    height: 65px;
+    height: 55px;
     width: 250px;
     margin-top: 30px;
     font-size: 1.2em;
@@ -103,19 +107,25 @@ section {
 }
 
 .card {
-    margin: 2rem 0;
-}
+    margin: 2rem 0.25rem;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);}
 
 .card-header {
     display: flex;
     height: 50px;
     padding-left: 5px;
+    background: none;
+    border: none;
+}
+
+.card-title {
+    padding-top: 7px;
 }
 
 .card-text {
     font-family: 'Zilla Slab', serif;
     font-size: 20px;
-    padding-top: 12px;
+    padding: 12px 0;
 }
 
 .card-icons {
@@ -125,6 +135,11 @@ section {
 /* About */
 .about-pic {
     border-radius: 50%;
+}
+.about-h1 {
+    font-family: 'Zilla Slab', serif;
+    color: #3272db;
+    padding-top: 75px;
 }
 
 .accordion {
@@ -141,22 +156,55 @@ section {
     text-align: center;
 }
 
+.about-parent {
+    background: #200030
+}
+
+.social {
+    text-align: center;
+    padding: 15px 0 55px 0;
+}
+
+.social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.social > a:hover {
+    opacity: 0.9;
+}
+
 /* Footer */
 .footer-basic {
+    display: flex;
+    justify-content: space-between;
     padding: 40px 0;
-    background-color: #ffffff;
-    color: #4b4c4d;
+    background-color: #24002b;
+    color: #fff;
     padding-top: 5px;
     padding-bottom: 10px;
 }
 
+.left-footer p {
+    font-family: copperplate;
+    margin: auto 0;
+    margin: 20px;
+}
+
 .footer-basic ul {
-    padding: 0;
+    padding: 0 15px 0 0;
+    margin: auto 0;
     list-style: none;
-    text-align: center;
+    font-family: copperplate;
     font-size: 18px;
     line-height: 1.6;
-    margin-bottom: 0;
 }
 
 .footer-basic li {
@@ -171,35 +219,4 @@ section {
 
 .footer-basic ul a:hover {
     opacity: 1;
-}
-
-.footer-basic .social {
-    text-align: center;
-    padding-bottom: 25px;
-}
-
-.footer-basic .social > a {
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    border: 1px solid #ccc;
-    margin: 0 8px;
-    color: inherit;
-    opacity: 0.75;
-}
-
-.footer-basic .social > a:hover {
-    opacity: 0.9;
-}
-
-.footer-basic .copyright {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 13px;
-    color: #aaa;
-    margin-bottom: 0;
 }
