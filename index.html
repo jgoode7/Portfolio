@@ -19,7 +19,6 @@
 
   <body>
     <header>
-      <!-- Nav Section -->
       <div class="row">
         <h1 class="col">
           <svg class="jg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 792">
@@ -64,13 +63,13 @@
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -102,7 +101,8 @@
               <br>
              I'm constantly driven to evolve my skill set</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button type="button" class="btn btn-primary btn-lg px-4 gap-3 work-btn">Let's See My Work!</button>            </div>
+              <a href="#projects" type="button" style="padding-top:5px;" class="btn btn-primary btn-lg px-4 gap-3 work-btn">Let's See My Work!</a>            
+            </div>
           </div>
         </div>
       </section>
@@ -110,7 +110,7 @@
     <main>
 
     <!-- Projects -->
-    <section class="container-fluid">
+    <section class="container-fluid" id="projects">
       <div class="container center-child">
         <div class="jumbotron jumbotron-fluid container ">
           <div class="jumbo-div">
@@ -150,7 +150,7 @@
                     </div>
                   </div>
                   <p class="card-text">I'll admit I found this project quite difficult. Using plenty of resources such as MDN, CSS Tricks, and the Slack community, I was able to make this one stand out!</p>
-                  <a href="#">Read More &#187</a>
+                  <a href="wos-project.html">Read More &#187</a>
                 </div>
               </div>
             </div>
@@ -178,9 +178,9 @@
     </section>
 
       <!-- About Me -->
-      <section class="about-parent text-secondary px-4 py-5 text-center">
+      <section class="about-parent text-secondary px-4 py-5 text-center" id="about">
         <div class="py-5 about-hero"> 
-          <img src="about-pic.jpeg" class="about-pic" alt="Sampson and I">
+          <img src="img/about-pic.jpeg" class="about-pic" alt="Sampson and I">
           <h1 class="display-5 fw-bold text-white">About Me</h1>
 
           <div class="col-lg-6 mx-auto">
@@ -239,23 +239,23 @@
         </div>
       </section>
               
-      <section>
+      <section id="contact">
         <div class="m-3 text-center child-center">
           <h1 class="display-6 fw-bold about-h1">Let's Create Beatiful Things Together!</h1>
 
           <p>I'm currently looking for remote junior front-end dev opportunites.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button type="button" class="btn btn-primary btn-lg px-4 gap-3 contact-btn">Drop Me a Line!</button>            </div>
-          </div>
+              <button type="button" class="btn btn-primary btn-lg px-4 gap-3 contact-btn">Shoot Me An Email!</button>            
+            </div>
         </div>
         <div class="social container">
-          <a href="#">
-            <i class="icon ion-social-instagram"></i>
+          <a href="https://www.linkedin.com/in/joe-g-0a5404207/">
+            <i class="icon ion-social-linkedin"></i>
           </a>
-          <a href="#">
+          <a href="https://twitter.com/OGoodeness">
             <i class="icon ion-social-twitter"></i>
           </a>
-          <a href="#">
+          <a href="https://github.com/jgoode7">
             <i class="icon ion-social-github"></i>
           </a>
         </div>
@@ -272,8 +272,8 @@
         </div>
           <ul class="list-inline">
               <li class="list-inline-item"><a href="#">Back To Top</a></li>
-              <li class="list-inline-item"><a href="projects.html">Projects</a></li>
-              <li class="list-inline-item"><a href="contact.html">About Me</a></li>
+              <li class="list-inline-item"><a href="#projects">Projects</a></li>
+              <li class="list-inline-item"><a href="#about">About Me</a></li>
           </ul>
         </div>
       </div>
