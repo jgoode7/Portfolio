@@ -21,6 +21,7 @@ header h1 {
 
 .header-name {
     padding-top: 18px;
+    margin-left: 1em;
 }
 
 ul {
@@ -152,10 +153,6 @@ a:hover {
     padding-top: 3em;
 }
 
-.accordion-body {
-    /* background-image: url(../star-background.jpeg); */
-}
-
 .col-lg-6 {  /* Accordion */
     width: 85%;
     text-align: center;
@@ -231,4 +228,27 @@ a:hover {
 .project-page-main {
     font-family: 'Zilla Slab', serif;
     color: #3272db;
+}
+
+.project-page-title {
+    margin: 3em;
+    text-align: center;
+}
+
+.project-page-nutshell {
+    margin: auto 0;
+    text-align: center;
+}
+
+.intro-nutshell {
+    padding: 20px 0;
+}
+
+.project-page-code {
+    padding: 3em 0 0 0;
+}
+
+.code-h3 {
+    padding-left: 20px;
+    margin-bottom: 0;
 }
