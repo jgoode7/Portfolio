@@ -1,10 +1,4 @@
 /* Header/Nav */
-
-.center-child {
-    width: 85%;
-    margin: 0 auto;
-}
-
 header {
     margin: 0;
     height: 10vh;
@@ -12,27 +6,23 @@ header {
 }
 
 header h1 {
-    font-family: copperplate;
-    text-shadow: 2px 2px #290087;
-    margin-left: 2rem;
-    font-size: 1.2em;
-    color: #fff;
+    display: none;
 }
 
 .header-name {
     padding-top: 18px;
+    padding-right: 0;
     margin-left: 1em;
 }
 
-ul {
-    padding: 5px 0 0 0;
-    margin-right: 5px;
+header ul {
+    padding-top: 8px;
 }
 
 .nav-link {
     color: white;
     text-shadow: 2px 2px #290087;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: copperplate;
 }
 
@@ -52,7 +42,7 @@ ul {
 .hero-h1 {
     font-family: 'Zilla Slab', serif;
     color: #3272db;
-    padding-top: 80px;
+    padding-top: 30px;
     margin-bottom: -4px;
 }
 
@@ -73,7 +63,7 @@ ul {
     background-color: #ff4040;
     height: 55px;
     width: 250px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 1.2em;
     color: #fff;
     border-radius: 10px;
@@ -117,6 +107,58 @@ a:hover {
     margin: 2rem 0.25rem;
     box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
 }
+@media only screen and (min-width: 320px) {
+    .list-inline-item {
+        display: flex;
+        justify-content: end;
+        margin-right: 0;
+    }
+
+    header .row ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav-link {
+        font-size: 1em;
+        padding: 8px 12px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .card-divs {
+        justify-content: center;
+    }
+
+    .card-div {
+        max-width: 51%;
+    }
+
+    .list-inline-item {
+        display: inline-block;
+    }
+
+    header .row ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header h1 {
+        display: inline-block;
+        font-family: copperplate;
+        text-shadow: 2px 2px #290087;
+        margin-left: 2rem;
+        font-size: 1.2em;
+        color: #fff;
+    }
+    
+    .nav-link {
+        font-size: 1.2em;
+    }
+}
+
+
+
 
 .card img {
     height: 40vh;
