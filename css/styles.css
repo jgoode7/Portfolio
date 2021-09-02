@@ -237,31 +237,31 @@ a:hover {
     text-align: center;
 }
 
+.intro {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project-page-pic {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.project-page-pic img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
 .project-page-description {
+    display: flex;
+    align-items: center;
+    justify-items: center;
     background-color:rgba(38, 21, 77);
-    text-align: center;
-    margin-left: -10px;
-    padding: 15px 10px 10px 10px;
-    height: 30vh;
+    padding: auto;
     border-radius: 15px;
     color: #fff;
-}
-
-.project-page-nutshell {
-    margin: auto 0;
-    color: rgba(38, 21, 77);
-    height: 40vh;
-    border-radius: 15px;
-    text-align: center;
-}
-
-.intro-nutshell {
-    padding: 20px 0;
-}
-
-.project-page-code {
-    padding: 3em 0 0 0;
-    margin-top: 3em;
 }
 
 .code-h3 {
@@ -270,8 +270,7 @@ a:hover {
     margin-bottom: 0;
 }
 
-.project-page-nutshell img {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 10%;
+.project-page-code {
+    padding: 3em 0 0 0;
+    margin-top: 3em;
 }
