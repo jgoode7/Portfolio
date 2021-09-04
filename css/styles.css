@@ -79,10 +79,14 @@ button a {
 }
 
 a:hover {
-    color: #fff;
+    color: #A9A9A9;
 }
 
 /* Projects */
+.row {
+    max-width: 100%;    
+}
+
 .container-fluid {
     margin: 75px 0;
 }
@@ -99,63 +103,13 @@ a:hover {
 
 .projects-jumbo-p {
     font-size: 24px;
-    padding: 0 15px;
+    padding: 0 1em 1.5em ;
     text-align: center;
 }
 
 .card {
     margin: 2rem 0.25rem;
     box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
-}
-
-@media only screen and (min-width: 320px) {
-    .list-inline-item {
-        display: flex;
-        justify-content: end;
-        margin-right: 0;
-    }
-
-    header .row ul {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .nav-link {
-        font-size: 1em;
-        padding: 8px 12px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .card-divs {
-        justify-content: center;
-    }
-
-    .card-div {
-        max-width: 51%;
-    }
-
-    .list-inline-item {
-        display: inline-block;
-    }
-
-    header .row ul {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    header h1 {
-        display: inline-block;
-        font-family: copperplate;
-        text-shadow: 2px 2px #290087;
-        margin-left: 2rem;
-        font-size: 1.2em;
-        color: #fff;
-    }
-    
-    .nav-link {
-        font-size: 1.2em;
-    }
 }
 
 .card img {
@@ -355,3 +309,51 @@ div .card .bg-dark{
 }
 
 /* Takeaway Section */
+
+
+/* Media Queries */
+@media only screen and (min-width: 320px) {
+    .list-inline-item {
+        display: flex;
+        justify-content: end;
+        margin-right: 0;
+    }
+
+    header .row ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav-link {
+        font-size: 1em;
+        padding: 8px 12px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .card-divs {
+        justify-content: center;
+    }
+
+    .list-inline-item {
+        display: inline-block;
+    }
+
+    header .row ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header h1 {
+        display: inline-block;
+        font-family: copperplate;
+        text-shadow: 2px 2px #290087;
+        margin-left: 2rem;
+        font-size: 1.2em;
+        color: #fff;
+    }
+    
+    .nav-link {
+        font-size: 1.2em;
+    }
+}
