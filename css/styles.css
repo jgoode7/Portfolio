@@ -328,7 +328,7 @@ p {
     justify-content: center;
 }
 
-div .card {
+div .card .bg-dark{
     max-width: 40vw;
     margin-right: 20px;
     height: 350px;
@@ -345,8 +345,13 @@ div .card {
     flex-direction: column;
 }
 
+.p1 {
+    padding-right: 5%;
+}
+
 .p2 {
     margin-top: auto;
+    padding-left: 5%;
     text-align: end;
 }
 
