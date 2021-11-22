@@ -428,19 +428,27 @@ div .card .bg-dark{
 
     .skill-list1 li,
     .skill-list2 li {
-        max-width: 200px;
+        max-width: 80%;
     }
 
     .skill-list-div {
-        padding-right: 2em;
-
+        padding-left: 2em;
     }
 
     .work-skills {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        
+        justify-content: center;   
+    }
+
+    .project-page-pic img {
+        max-width: 60%;
+        max-height: 70%;
+    }
+
+    .snippets {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -473,5 +481,29 @@ div .card .bg-dark{
     
     .nav-link {
         font-size: 1.2em;
+    }
+
+    .snippets {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .project-page-pic img {
+        max-width: 60%;
+        max-height: 100%;
+    }
+
+    .skill-list1 li,
+    .skill-list2 li {
+        max-width: 100%;
+    }
+
+    .skill-list-div {
+        padding-right: 2em;
+    }
+
+    .work-skills {
+        flex-direction: row;
+        max-width: 100%;  
     }
 }
