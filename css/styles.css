@@ -211,6 +211,7 @@ a:hover {
 
 .no-bullet {
     list-style-type: none;
+    padding-right: 2em;
 }
 
 .about-parent {
@@ -423,6 +424,23 @@ div .card .bg-dark{
 
     .row {
         margin-left: 0!important;
+    }
+
+    .skill-list1 li,
+    .skill-list2 li {
+        max-width: 200px;
+    }
+
+    .skill-list-div {
+        padding-right: 2em;
+
+    }
+
+    .work-skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
     }
 }
 
